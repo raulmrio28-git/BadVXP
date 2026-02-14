@@ -307,6 +307,8 @@ history/
 
 # VXP compiler remaints
 **/*.axf
+**/*.dll
+**/*.vxp
 **/arm
 
 # Output by the user
