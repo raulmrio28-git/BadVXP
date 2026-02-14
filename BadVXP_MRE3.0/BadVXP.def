@@ -1,0 +1,7 @@
+; BadVXP.def : Declares the module parameters for the DLL.
+
+LIBRARY      "BadVXP"
+DESCRIPTION  'BadVXP Windows Dynamic Link Library'
+
+EXPORTS
+    vm_entry @1
