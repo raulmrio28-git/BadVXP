@@ -81,7 +81,8 @@ void animate();
 
 #define ANI_MAGIC '!inA'
 
-#define DEBUGGING_LOG
+//If you wish to debug, uncomment this
+//#define DEBUGGING_LOG
 
 /////////////////////////////////////////////////////////////
 // Utilities (taken from gtrxAC's peanut.vxp)
