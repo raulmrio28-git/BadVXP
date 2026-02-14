@@ -57,6 +57,6 @@ ffmpeg -i <project>\sources\rotated.mp4 <project>\sources\%04d.png
 
 6. Build the project
 
-7. For testing, place the ani.ani file onto <SD CARD>:\BadApple folder. Then put the Default.vxp file onto your SD card.
+7. For testing, place the ani.ani file onto (SD CARD):\BadApple folder. Then put the Default.vxp file onto your SD card.
 
 8. Run VXP and enjoy!
