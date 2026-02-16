@@ -41,6 +41,8 @@
 #include "vmtimer.h"
 #include "ResID.h"
 #include "vm4res.h"
+#include "vmbitstream.h"
+#include <string.h>
 /* ---------------------------------------------------------------------------
 * global variables
 * ------------------------------------------------------------------------ */
@@ -54,6 +56,7 @@ VMINT		layer_hdl[1];	/* layer handle array. */
 
 unsigned char temp_unpack[240 * 320 / 8];
 unsigned char frame_data[240 * 320 * 2]; //76800+5bytes
+unsigned short hack_buffer[240 * 320];
 
 /*
 * system events 
@@ -227,6 +230,7 @@ void decode_img(unsigned char* in, unsigned int inlen, unsigned short* out, unsi
     }
 }
 int drv;
+VMINT timer = 0;
 
 void vm_main(void) {
 	/* initialize layer handle */
@@ -269,11 +273,15 @@ void handle_sysevt(VMINT message, VMINT param) {
 	case VM_MSG_INACTIVE:	/* the message of application state from active to inactive */
 		if( layer_hdl[0] != -1 )
 			vm_graphic_delete_layer(layer_hdl[0]);
+		vm_delete_timer_ex(timer);
+		vm_file_close(f);
 		
 		break;	
 	case VM_MSG_QUIT:		/* the message of quit application */
 		if( layer_hdl[0] != -1 )
 			vm_graphic_delete_layer(layer_hdl[0]);
+		vm_delete_timer_ex(timer);
+		vm_file_close(f);
 		
 		/* Release all resource */
 		vm_res_deinit();
@@ -284,11 +292,40 @@ void handle_sysevt(VMINT message, VMINT param) {
 int frames = 0;
 int curr_frame = 0;
 int curr_parsed = 20;
-VMINT timer = 0;
 
 #ifdef DEBUGGING_LOG
 VMFILE log_file = 0;
 #endif
+
+int fake()
+{
+	return 0;
+}
+
+//This is the basis for the shitty hack to slow down a tiny bit the playback
+//This was used on another MRE-related project of mine
+static void draw_image_to_canvas_buffer(
+		VMUINT16* sprite_buffer,
+		VMINT sprite_x,
+		VMINT sprite_y,
+		VMINT sprite_w,
+		VMINT sprite_h,
+		VMUINT8* dest, 
+		VMINT x, VMINT y
+	) {
+		VMINT s_x, s_y; // sprite pixel x, y
+		for (s_y = sprite_y; s_y < sprite_y + sprite_h; s_y++) {
+			VMINT t_x = x;
+			for (s_x = sprite_x + sprite_w * 0; s_x < sprite_x + sprite_w * 0 + sprite_w; s_x++) {
+				// Redraw each pixel as a filled rect with scale width & height.
+				VMUINT16 pixel = sprite_buffer[(s_y*sprite_w) + s_x];
+				vm_graphic_fill_rect(dest, t_x, y, 1,1, pixel, pixel);
+				t_x++;
+			}
+			y++;
+		}
+	}
+
 
 void decode_and_draw_frame(VMINT tid)
 {
@@ -316,32 +353,32 @@ void decode_and_draw_frame(VMINT tid)
 	}
 	#endif
 	curr_parsed += 5+frame_len;
-    decode_img(frame_data, frame_len+5, (unsigned short*)vm_graphic_get_layer_buffer(layer_hdl[0]), 240*320);
+	decode_img(frame_data, frame_len+5, hack_buffer, 240*320);
+	//Shitty hack, we're going to draw to canvas buffer for 3 rows by our hack function (which tested, slowed down playback)
+	draw_image_to_canvas_buffer(hack_buffer, 0, 0, 240, 3, vm_graphic_get_layer_buffer(layer_hdl[0]), 0,0);	
+	//Copy the rest
+    memcpy(vm_graphic_get_layer_buffer(layer_hdl[0])+1440,hack_buffer+720,(240*317*2));
+	//Shitty hack part 2, redraw row 1 by our hack function
+	draw_image_to_canvas_buffer(hack_buffer, 0, 0, 240, 1, vm_graphic_get_layer_buffer(layer_hdl[0]), 0,0);	
     vm_graphic_flush_layer(layer_hdl, 1);
 	curr_frame++;
-	//Due to timer issues, we need to artificially slowdown
-	{
-		int a;
-		for (a=0;a<100;a++) {0;}
-	}
 }
 
 void animate()
 {
-	//unsigned char* image = (unsigned char *)_acani;
-	char path[128] = " :\\BadApple\\ani.ani";
+	char path[128];
 	char header[20];
 	VMUINT red = 0;
-	path[0] = drv;
-	vm_ascii_to_ucs2(ucs2_str, 256, " :\\log.txt");
-	ucs2_str[0] = drv;
 	#ifdef DEBUGGING_LOG
+	sprintf(path, "%c:\\BadApple\\log.txt", drv);
+	vm_ascii_to_ucs2(ucs2_str, 256, path);
 	log_file = vm_file_open(ucs2_str, MODE_CREATE_ALWAYS_WRITE, 0);
 	#endif
+	sprintf(path, "%c:\\BadApple\\ani.ani", drv);
 	vm_ascii_to_ucs2(ucs2_str, 256, (VMSTR)path);
 	f = vm_file_open(ucs2_str, MODE_READ, 1);
 	if (f < 0) {
-		show_error_and_exit("Frames not found");
+		show_error_and_exit("Frames failed to open");
 		return;
 	}
 	vm_file_read(f, header, 20, &red);

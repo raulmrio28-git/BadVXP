@@ -316,3 +316,5 @@ sources/*.mp4
 sources/*.ani
 sources/frames
 sources/frames_1bpp
+/BadVXP_MRE3.0/*.txt
+/sources/*.mp3

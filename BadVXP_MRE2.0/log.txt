@@ -1,493 +1,97 @@
-Executing Bad Apple!
-Frames found!!!!
-Header correct
-I decode frame 0/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 1/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 2/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 797
-I draw frame->flushing
-Done
-I decode frame 3/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 4/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 5/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 6/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 7/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 8/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 9/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 792
-I draw frame->flushing
-Done
-I decode frame 10/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 11/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 12/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 797
-I draw frame->flushing
-Done
-I decode frame 13/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 14/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 15/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 16/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 17/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 18/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 797
-I draw frame->flushing
-Done
-I decode frame 19/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 20/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 21/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 795
-I draw frame->flushing
-Done
-I decode frame 22/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 23/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 24/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 25/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 26/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 797
-I draw frame->flushing
-Done
-I decode frame 27/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 28/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 29/6572, size 4 of type 44
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 30/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 31/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 32/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 33/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 34/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 35/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 36/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 796
-I draw frame->flushing
-Done
-I decode frame 37/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 38/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 39/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 40/6572, size 4 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 41/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 42/6572, size 4 of type 44
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 43/6572, size 28 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 44/6572, size 96 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 45/6572, size 160 of type 44
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 46/6572, size 228 of type 40
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 796
-I draw frame->flushing
-Done
-I decode frame 47/6572, size 280 of type 40
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 48/6572, size 347 of type 42
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 49/6572, size 279 of type 42
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 50/6572, size 192 of type 40
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 51/6572, size 240 of type 40
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 52/6572, size 343 of type 42
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 53/6572, size 374 of type 42
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 54/6572, size 426 of type 42
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 794
-I draw frame->flushing
-Done
-I decode frame 55/6572, size 483 of type 42
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 56/6572, size 525 of type 42
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 796
-I draw frame->flushing
-Done
-I decode frame 57/6572, size 510 of type 42
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 58/6572, size 520 of type 42
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 797
-I draw frame->flushing
-Done
-I decode frame 59/6572, size 523 of type 42
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 60/6572, size 537 of type 42
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 61/6572, size 580 of type 3c
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 62/6572, size 612 of type 3c
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 63/6572, size 680 of type 3c
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 797
-I draw frame->flushing
-Done
-I decode frame 64/6572, size 704 of type 3c
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 65/6572, size 644 of type 3d
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 795
-I draw frame->flushing
-Done
-I decode frame 66/6572, size 624 of type 3d
-Decode frame-> time took 4
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 793
-I draw frame->flushing
-Done
-I decode frame 67/6572, size 565 of type 43
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 799
-I draw frame->flushing
-Done
-I decode frame 68/6572, size 573 of type 43
-Decode frame-> time took 5
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 798
-I draw frame->flushing
-Done
-I decode frame 69/6572, size 596 of type 43
-Decode frame-> time took 0
-I draw frame
-I draw frame->draw to canvas
-Write to canvas-> time took 803
-I draw frame->flushing
-Done
+Init audio bs returned -1
+BS put data result -1
+BS play result -1
+Decoding frame 1 located in file at offset 20
+Decoding frame 2 located in file at offset 29
+Decoding frame 3 located in file at offset 38
+Decoding frame 4 located in file at offset 47
+Decoding frame 5 located in file at offset 56
+Decoding frame 6 located in file at offset 65
+Decoding frame 7 located in file at offset 74
+Decoding frame 8 located in file at offset 83
+Decoding frame 9 located in file at offset 92
+Decoding frame 10 located in file at offset 101
+Decoding frame 11 located in file at offset 110
+Decoding frame 12 located in file at offset 119
+Decoding frame 13 located in file at offset 128
+Decoding frame 14 located in file at offset 137
+Decoding frame 15 located in file at offset 146
+Decoding frame 16 located in file at offset 155
+Decoding frame 17 located in file at offset 164
+Decoding frame 18 located in file at offset 173
+Decoding frame 19 located in file at offset 182
+Decoding frame 20 located in file at offset 191
+Decoding frame 21 located in file at offset 200
+Decoding frame 22 located in file at offset 209
+Decoding frame 23 located in file at offset 218
+Decoding frame 24 located in file at offset 227
+Decoding frame 25 located in file at offset 236
+Decoding frame 26 located in file at offset 245
+Decoding frame 27 located in file at offset 254
+Decoding frame 28 located in file at offset 263
+Decoding frame 29 located in file at offset 272
+Decoding frame 30 located in file at offset 281
+BS put data result -1
+BS play result -1
+Decoding frame 31 located in file at offset 290
+Decoding frame 32 located in file at offset 299
+Decoding frame 33 located in file at offset 308
+Decoding frame 34 located in file at offset 317
+Decoding frame 35 located in file at offset 326
+Decoding frame 36 located in file at offset 335
+Decoding frame 37 located in file at offset 344
+Decoding frame 38 located in file at offset 353
+Decoding frame 39 located in file at offset 362
+Decoding frame 40 located in file at offset 371
+Decoding frame 41 located in file at offset 380
+Decoding frame 42 located in file at offset 389
+Decoding frame 43 located in file at offset 398
+Decoding frame 44 located in file at offset 407
+Decoding frame 45 located in file at offset 440
+Decoding frame 46 located in file at offset 541
+Decoding frame 47 located in file at offset 706
+Decoding frame 48 located in file at offset 939
+Decoding frame 49 located in file at offset 1224
+Decoding frame 50 located in file at offset 1593
+Decoding frame 51 located in file at offset 1902
+Decoding frame 52 located in file at offset 2099
+Decoding frame 53 located in file at offset 2344
+Decoding frame 54 located in file at offset 2709
+Decoding frame 55 located in file at offset 3134
+Decoding frame 56 located in file at offset 3607
+Decoding frame 57 located in file at offset 4132
+Decoding frame 58 located in file at offset 4729
+Decoding frame 59 located in file at offset 5318
+Decoding frame 60 located in file at offset 5923
+Decoding frame 61 located in file at offset 6556
+BS put data result -1
+BS play result -1
+Decoding frame 62 located in file at offset 7229
+Decoding frame 63 located in file at offset 7814
+Decoding frame 64 located in file at offset 8431
+Decoding frame 65 located in file at offset 9116
+Decoding frame 66 located in file at offset 9825
+Decoding frame 67 located in file at offset 10474
+Decoding frame 68 located in file at offset 11103
+Decoding frame 69 located in file at offset 11760
+Decoding frame 70 located in file at offset 12425
+Decoding frame 71 located in file at offset 13118
+Decoding frame 72 located in file at offset 13795
+Decoding frame 73 located in file at offset 14500
+Decoding frame 74 located in file at offset 15197
+Decoding frame 75 located in file at offset 15838
+Decoding frame 76 located in file at offset 16475
+Decoding frame 77 located in file at offset 17100
+Decoding frame 78 located in file at offset 17713
+Decoding frame 79 located in file at offset 18278
+Decoding frame 80 located in file at offset 18795
+Decoding frame 81 located in file at offset 19312
+Decoding frame 82 located in file at offset 19825
+Decoding frame 83 located in file at offset 20410
+Decoding frame 84 located in file at offset 21083
+Decoding frame 85 located in file at offset 21800
+Decoding frame 86 located in file at offset 22481
+Decoding frame 87 located in file at offset 23146
+Decoding frame 88 located in file at offset 23775
+Decoding frame 89 located in file at offset 24400
+Decoding frame 90 located in file at offset 24985

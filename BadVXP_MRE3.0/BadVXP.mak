@@ -35,9 +35,9 @@ all: $(TARGET)
 
 SOURCE_FILES= \
 
-	BadVXP.c \
+	./BadVXP.c \
 
-	BadVXP.def
+	./BadVXP.def
 
 HEADER_FILES= \
 

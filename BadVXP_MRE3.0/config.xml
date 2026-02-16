@@ -9,8 +9,13 @@
     </iconName>
   </userinfo>
   <APIAuth>
+    <category>TCP</category>
+    <category>Sensor</category>
+    <category>SMS(person)</category>
     <category>BitStream</category>
-    <category>File</category>
+    <category>Contact</category>
+    <category>MMS</category>
+    <category>SMSMng</category>
   </APIAuth>
   <targetconfig>
     <supportbg>unchecked</supportbg>
@@ -30,9 +35,9 @@
     <idleshortcut>unchecked</idleshortcut>
   </targetconfig>
   <namelist>
-    <english>BadAppleVXP</english>
-    <chinese>BadAppleVXP</chinese>
-    <cht>BadAppleVXP</cht>
+    <english>BadAppleVXP_3.0</english>
+    <chinese>BadAppleVXP_3.0</chinese>
+    <cht>BadAppleVXP_3.0</cht>
   </namelist>
   <operationinfo>
     <content>content</content>

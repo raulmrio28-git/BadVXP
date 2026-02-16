@@ -90,12 +90,11 @@ def encode_rle(image, bpp, xor_frame = False):
     bp_byteslike = bytes(bp)
     bp_red = lzss.compress(bp_byteslike)
     is_compressed_bitredundant = 0
-    #if len(bp_red) < len(bp):
-    #    len_var = len(bp_red) | (len(bp) << 16)
-    #    bp = bp_red
-    #    is_compressed_bitredundant = 1
-    #else:
-    if 1:
+    if len(bp_red) < len(bp):
+        len_var = len(bp_red) | (len(bp) << 16)
+        bp = bp_red
+        is_compressed_bitredundant = 1
+    else:
         len_var = len(bp)
     magic = ((max_bits<<2)|(is_compressed_bitredundant<<1)|first_pixel)&0xff
     img_out.append(magic)
@@ -187,7 +186,7 @@ if __name__ == "__main__":
                 f.write(ci)
                 enc_img_cnt += 1
                 completed += 1
-                print(f"Encoded frame {completed}/{img_cnt} ({completed/img_cnt*100:.1f}%), size: {length}")
+                print(f"Encoded frame {completed}/{img_cnt} ({completed/img_cnt*100:.1f}%), size: {length&0xffff}")
             else:
                 completed += 1
                 print(f"Failed to encode frame {completed}/{img_cnt}")
