@@ -360,6 +360,8 @@ void decode_and_draw_frame(VMINT tid)
     memcpy(vm_graphic_get_layer_buffer(layer_hdl[0])+1440,hack_buffer+720,(240*317*2));
 	//Shitty hack part 2, redraw row 1 by our hack function
 	draw_image_to_canvas_buffer(hack_buffer, 0, 0, 240, 1, vm_graphic_get_layer_buffer(layer_hdl[0]), 0,0);	
+	//Shitty hack part 3, redraw again row 1 by our hack function
+	draw_image_to_canvas_buffer(hack_buffer, 0, 0, 130, 1, vm_graphic_get_layer_buffer(layer_hdl[0]), 0,0);	
     vm_graphic_flush_layer(layer_hdl, 1);
 	curr_frame++;
 }
@@ -388,5 +390,5 @@ void animate()
 		return;
 	}
 	frames = *((unsigned int*)&header[16]);
-	timer = vm_create_timer(33, decode_and_draw_frame);
+	timer = vm_create_timer(31, decode_and_draw_frame);
 }
